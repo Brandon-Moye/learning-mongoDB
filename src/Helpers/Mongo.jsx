@@ -15,7 +15,7 @@ async function doLoginRealm() {
 
 async function doGetData() {
     // TODO: define a function in realm called getData
-    return await realm.currentUser.functions.getData({});
+    return await realm.currentUser.functions.getData('65dba9c37f7cf13d9ec6cd70');
 }
 
 export {

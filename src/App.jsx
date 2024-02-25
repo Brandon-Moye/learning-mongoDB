@@ -18,7 +18,7 @@ function App() {
           {data ? 'did I get it' : 'I dont go it'}
         </p>
         <p>
-          {/* {data[0].name} */}
+          {data.dragName}
         </p>
       </header>
     </div>
